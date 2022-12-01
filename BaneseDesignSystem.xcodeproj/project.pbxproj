@@ -9,13 +9,23 @@
 /* Begin PBXBuildFile section */
 		716A14782902113F004F260B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14772902113F004F260B /* AppDelegate.swift */; };
 		716A147A2902113F004F260B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14792902113F004F260B /* SceneDelegate.swift */; };
-		716A147C2902113F004F260B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A147B2902113F004F260B /* ViewController.swift */; };
-		716A147F2902113F004F260B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716A147D2902113F004F260B /* Main.storyboard */; };
 		716A148129021142004F260B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 716A148029021142004F260B /* Assets.xcassets */; };
 		716A148429021142004F260B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716A148229021142004F260B /* LaunchScreen.storyboard */; };
-		716A148F29021142004F260B /* BaneseDesignSystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A148E29021142004F260B /* BaneseDesignSystemTests.swift */; };
-		716A149929021142004F260B /* BaneseDesignSystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A149829021142004F260B /* BaneseDesignSystemUITests.swift */; };
-		716A149B29021142004F260B /* BaneseDesignSystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A149A29021142004F260B /* BaneseDesignSystemUITestsLaunchTests.swift */; };
+		716A14AC29021482004F260B /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14AB29021482004F260B /* Fonts.swift */; };
+		716A14AE290214E5004F260B /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14AD290214E5004F260B /* Configurations.swift */; };
+		716A14B229021551004F260B /* Montserrat in Resources */ = {isa = PBXBuildFile; fileRef = 716A14B129021551004F260B /* Montserrat */; };
+		716A14B42902159A004F260B /* Setup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14B32902159A004F260B /* Setup.swift */; };
+		716A14B6290215AD004F260B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14B5290215AD004F260B /* Theme.swift */; };
+		716A14B9290215D3004F260B /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14B8290215D3004F260B /* BaseButton.swift */; };
+		716A14BB290215F4004F260B /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14BA290215F4004F260B /* UIButton.swift */; };
+		716A14BD29021952004F260B /* BDSFontModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14BC29021952004F260B /* BDSFontModel.swift */; };
+		716A14C02902BDC0004F260B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14BF2902BDC0004F260B /* Colors.swift */; };
+		716A14C32902BEB8004F260B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14C22902BEB8004F260B /* UIColor+Extension.swift */; };
+		716A14C52902CD58004F260B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716A14C42902CD58004F260B /* Main.storyboard */; };
+		716A14C82902D0D1004F260B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14C72902D0D1004F260B /* TestViewController.swift */; };
+		716A14CB2902D2C4004F260B /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14CA2902D2C4004F260B /* UILabel.swift */; };
+		716A14CD2902D2FC004F260B /* DynamicLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14CC2902D2FC004F260B /* DynamicLabel.swift */; };
+		716A14D12902D45F004F260B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A14D02902D45F004F260B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +49,26 @@
 		716A14742902113F004F260B /* BaneseDesignSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaneseDesignSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716A14772902113F004F260B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		716A14792902113F004F260B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		716A147B2902113F004F260B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		716A147E2902113F004F260B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		716A148029021142004F260B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		716A148329021142004F260B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716A148529021142004F260B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716A148A29021142004F260B /* BaneseDesignSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaneseDesignSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716A148E29021142004F260B /* BaneseDesignSystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaneseDesignSystemTests.swift; sourceTree = "<group>"; };
 		716A149429021142004F260B /* BaneseDesignSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaneseDesignSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716A149829021142004F260B /* BaneseDesignSystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaneseDesignSystemUITests.swift; sourceTree = "<group>"; };
-		716A149A29021142004F260B /* BaneseDesignSystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaneseDesignSystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		716A14AB29021482004F260B /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		716A14AD290214E5004F260B /* Configurations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		716A14B129021551004F260B /* Montserrat */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Montserrat; sourceTree = "<group>"; };
+		716A14B32902159A004F260B /* Setup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setup.swift; sourceTree = "<group>"; };
+		716A14B5290215AD004F260B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		716A14B8290215D3004F260B /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		716A14BA290215F4004F260B /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		716A14BC29021952004F260B /* BDSFontModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BDSFontModel.swift; sourceTree = "<group>"; };
+		716A14BF2902BDC0004F260B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		716A14C22902BEB8004F260B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		716A14C42902CD58004F260B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		716A14C72902D0D1004F260B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		716A14CA2902D2C4004F260B /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		716A14CC2902D2FC004F260B /* DynamicLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLabel.swift; sourceTree = "<group>"; };
+		716A14D02902D45F004F260B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				716A14762902113F004F260B /* BaneseDesignSystem */,
-				716A148D29021142004F260B /* BaneseDesignSystemTests */,
-				716A149729021142004F260B /* BaneseDesignSystemUITests */,
 				716A14752902113F004F260B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +117,92 @@
 		716A14762902113F004F260B /* BaneseDesignSystem */ = {
 			isa = PBXGroup;
 			children = (
+				716A14C62902D0C3004F260B /* ViewController */,
+				716A14AF2902152E004F260B /* Source */,
 				716A14772902113F004F260B /* AppDelegate.swift */,
 				716A14792902113F004F260B /* SceneDelegate.swift */,
-				716A147B2902113F004F260B /* ViewController.swift */,
-				716A147D2902113F004F260B /* Main.storyboard */,
 				716A148029021142004F260B /* Assets.xcassets */,
 				716A148229021142004F260B /* LaunchScreen.storyboard */,
+				716A14C42902CD58004F260B /* Main.storyboard */,
 				716A148529021142004F260B /* Info.plist */,
 			);
 			path = BaneseDesignSystem;
 			sourceTree = "<group>";
 		};
-		716A148D29021142004F260B /* BaneseDesignSystemTests */ = {
+		716A14AF2902152E004F260B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				716A148E29021142004F260B /* BaneseDesignSystemTests.swift */,
+				716A14CF2902D44B004F260B /* Utils */,
+				716A14C92902D2BB004F260B /* Label */,
+				716A14C12902BE94004F260B /* Extensions */,
+				716A14BE2902BDB1004F260B /* Colors */,
+				716A14AD290214E5004F260B /* Configurations.swift */,
+				716A14B7290215C9004F260B /* Button */,
+				716A14B029021543004F260B /* Fonts */,
+				716A14B32902159A004F260B /* Setup.swift */,
+				716A14B5290215AD004F260B /* Theme.swift */,
+				716A14BC29021952004F260B /* BDSFontModel.swift */,
 			);
-			path = BaneseDesignSystemTests;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		716A149729021142004F260B /* BaneseDesignSystemUITests */ = {
+		716A14B029021543004F260B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				716A149829021142004F260B /* BaneseDesignSystemUITests.swift */,
-				716A149A29021142004F260B /* BaneseDesignSystemUITestsLaunchTests.swift */,
+				716A14AB29021482004F260B /* Fonts.swift */,
+				716A14B129021551004F260B /* Montserrat */,
 			);
-			path = BaneseDesignSystemUITests;
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		716A14B7290215C9004F260B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				716A14B8290215D3004F260B /* BaseButton.swift */,
+				716A14BA290215F4004F260B /* UIButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		716A14BE2902BDB1004F260B /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				716A14BF2902BDC0004F260B /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		716A14C12902BE94004F260B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				716A14C22902BEB8004F260B /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		716A14C62902D0C3004F260B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				716A14C72902D0D1004F260B /* TestViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		716A14C92902D2BB004F260B /* Label */ = {
+			isa = PBXGroup;
+			children = (
+				716A14CA2902D2C4004F260B /* UILabel.swift */,
+				716A14CC2902D2FC004F260B /* DynamicLabel.swift */,
+			);
+			path = Label;
+			sourceTree = "<group>";
+		};
+		716A14CF2902D44B004F260B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				716A14D02902D45F004F260B /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +309,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716A14B229021551004F260B /* Montserrat in Resources */,
 				716A148429021142004F260B /* LaunchScreen.storyboard in Resources */,
 				716A148129021142004F260B /* Assets.xcassets in Resources */,
-				716A147F2902113F004F260B /* Main.storyboard in Resources */,
+				716A14C52902CD58004F260B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +337,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716A147C2902113F004F260B /* ViewController.swift in Sources */,
+				716A14AC29021482004F260B /* Fonts.swift in Sources */,
+				716A14CB2902D2C4004F260B /* UILabel.swift in Sources */,
+				716A14C02902BDC0004F260B /* Colors.swift in Sources */,
+				716A14B42902159A004F260B /* Setup.swift in Sources */,
+				716A14B9290215D3004F260B /* BaseButton.swift in Sources */,
+				716A14D12902D45F004F260B /* Utils.swift in Sources */,
+				716A14AE290214E5004F260B /* Configurations.swift in Sources */,
+				716A14BD29021952004F260B /* BDSFontModel.swift in Sources */,
 				716A14782902113F004F260B /* AppDelegate.swift in Sources */,
 				716A147A2902113F004F260B /* SceneDelegate.swift in Sources */,
+				716A14C32902BEB8004F260B /* UIColor+Extension.swift in Sources */,
+				716A14B6290215AD004F260B /* Theme.swift in Sources */,
+				716A14C82902D0D1004F260B /* TestViewController.swift in Sources */,
+				716A14CD2902D2FC004F260B /* DynamicLabel.swift in Sources */,
+				716A14BB290215F4004F260B /* UIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +359,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716A148F29021142004F260B /* BaneseDesignSystemTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716A149929021142004F260B /* BaneseDesignSystemUITests.swift in Sources */,
-				716A149B29021142004F260B /* BaneseDesignSystemUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +385,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		716A147D2902113F004F260B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				716A147E2902113F004F260B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		716A148229021142004F260B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
